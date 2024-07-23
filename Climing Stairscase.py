@@ -15,7 +15,7 @@ Explanation
 1 step + 1 step + 1 step = 3
 1 step + 2 step = 3 
 2 step + 1 step = 3 
-
+files 
 """
 
 def stairCase(n):
@@ -23,6 +23,6 @@ def stairCase(n):
         return 1
     operation1 = (n -1)
     operation2 = (n - 2)
-    return operation1 + operation2
+    return operation1        + operation2
 
 print(stairCase(50))
